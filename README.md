@@ -1,5 +1,21 @@
 # nft-storage-java-client
 A Java client for nft.storage API
+
+To Install: ```mvn clean install```
+
+And then:
+
+		<dependency>
+		  <groupId>nft.storage</groupId>
+		  <artifactId>nft.storage-client</artifactId>
+		  <version>1.0</version>
+		  <scope>compile</scope>
+		</dependency>
+
+
+
+
+Usage:
 ```
   private void init(){
 	    ApiClient defaultClient = Configuration.getDefaultApiClient();
